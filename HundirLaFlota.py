@@ -67,11 +67,11 @@ class Tablero:
     def comprobar_impacto(self, x, y):
         # Validar si las coordenadas están dentro del tablero
         if not (0 <= x < self.tamano and 0 <= y < self.tamano):
-            return "Fuera de rango"
+            return "Fuera de rango..."
 
         objetivo = self.matriz[x][y]
         if objetivo is None:
-            return "Agua"
+            return "Agua..."
 
         # Si hay impacto, se llama al método de la clase Nave
         resultado_estado = objetivo.recibir_disparo()
