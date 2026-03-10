@@ -22,6 +22,6 @@ class Tablero:
         if objetivo is None:
             return "Agua"
 
-        # Si hay impacto, se llama al método de la clase Nave.
+        # Si hay impacto, se llama al método de la clase Nave..
         resultado_estado = objetivo.recibir_disparo()
         return (resultado_estado, objetivo.nombre)
