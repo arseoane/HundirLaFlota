@@ -4,6 +4,8 @@
 ### Objetivo:
 Lograr desarrollar la clase *casilla*.
 
+### Resolución (con comentarios):
+
 ```python
 class Casilla:
     def __init__(self):
